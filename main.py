@@ -104,7 +104,8 @@ def concat(s1,s2):
     Concatenates (string) s2 to the end of s1
     '''
     toReturn = ''
-    # add your code here
+    s3 = s1 + s2
+    print(s3)
     return toReturn
 
 def whichChar(s,a):
@@ -112,7 +113,8 @@ def whichChar(s,a):
     Returns the character at position a of string s
     '''
     toReturn = ''
-    # add your code here
+    print(s)
+    print(a)
     return toReturn
 
 def substr(s,a1,a2):
@@ -120,7 +122,7 @@ def substr(s,a1,a2):
     Returns a substring of s (from position a1 to a2)
     '''
     toReturn = ''
-    # add your code here
+    print(s[1])
     return toReturn
 
 def reverseStr(s):
